@@ -31,7 +31,7 @@ body {
   background: radial-gradient(circle at top, rgba(138,180,255,.16), transparent 30%), var(--bg);
   color: var(--text);
 }
-button, input { font: inherit; }
+button, input, select { font: inherit; }
 .shell {
   width: min(1120px, calc(100% - 24px));
   margin: 0 auto;
@@ -65,8 +65,8 @@ button, input { font: inherit; }
   margin: 16px 0;
 }
 .status-card, .controls, .resume-banner, .audio-card { padding: 18px; }
-.search-field { display: grid; gap: 8px; flex: 1 1 260px; }
-.search-field input {
+.search-field, .select-field { display: grid; gap: 8px; flex: 1 1 220px; }
+.search-field input, .select-field select {
   background: var(--panel-2);
   color: var(--text);
   border: 1px solid var(--line);
@@ -121,7 +121,7 @@ button, input { font: inherit; }
   justify-content: space-between;
   align-items: center;
 }
-.audio-card h2 { margin: 0 0 6px; font-size: 1.1rem; }
+.audio-card h2 { margin: 0 0 6px; font-size: 1.2rem; }
 .audio-meta { margin: 0; color: var(--muted); }
 .player-dock {
   position: sticky;
@@ -133,6 +133,47 @@ button, input { font: inherit; }
   gap: 12px;
 }
 #global-player { width: 100%; }
+.urdu-text,
+body.lang-urdu h1,
+body.lang-urdu .lede,
+body.lang-urdu #last-played-title,
+body.lang-urdu #last-played-meta,
+body.lang-urdu #resume-text,
+body.lang-urdu #now-playing-title,
+body.lang-urdu #now-playing-meta,
+body.lang-urdu .audio-card h2,
+body.lang-urdu .audio-meta,
+body.lang-urdu .select-field select {
+  font-family: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;
+  line-height: 2.1;
+}
+body.lang-urdu .eyebrow,
+body.lang-urdu .status-label,
+body.lang-urdu .dock-label,
+body.lang-urdu .audio-kicker,
+body.lang-urdu .chip,
+body.lang-urdu .primary-button,
+body.lang-urdu .ghost-button,
+body.lang-urdu .search-field span,
+body.lang-urdu .select-field span {
+  font-family: 'Noto Naskh Arabic', serif;
+}
+body.lang-urdu .hero-actions,
+body.lang-urdu .controls,
+body.lang-urdu .resume-banner,
+body.lang-urdu .audio-card__body {
+  direction: rtl;
+}
+body.lang-urdu .audio-card__body {
+  text-align: right;
+}
+body.lang-urdu .chip-row {
+  justify-content: flex-end;
+}
+body.lang-urdu .search-field input,
+body.lang-urdu .select-field select {
+  text-align: right;
+}
 @media (min-width: 760px) {
   .hero { grid-template-columns: 1fr auto; align-items: end; }
   .status-grid { grid-template-columns: repeat(2, 1fr); }
