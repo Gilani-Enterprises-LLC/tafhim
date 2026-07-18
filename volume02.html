@@ -1,0 +1,635 @@
+
+<html>
+<head>
+<style fprolloverstyle>A:hover {color: #FF9B04; font-size: 10px; font-family: Arial; font-weight: bold}
+</style>
+
+
+<SCRIPT TYPE="text/javascript">
+<!--
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+   href=mylink;
+else
+   href=mylink.href;
+window.open(href, windowname, 'width=200,height=210,scrollbars=no');
+return false;
+}
+//
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+-->
+</SCRIPT>
+
+
+
+</head>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<title>Tafheem-ul-Quran by Syed Abu Al A'la Moududi Audio MP3 - Quranurdu.com</title>
+
+<style>
+
+.formClass
+{
+    BACKGROUND-COLOR: #FFFFFF;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana,Tahoma,Arial,Helvetica
+}
+.lightRow {
+	BACKGROUND-COLOR: #FFFFFF
+}
+.darkRow {
+	BACKGROUND-COLOR: #F5F5F5
+}
+.titleRow {
+	BACKGROUND-COLOR: #E4E4E4
+}
+.loginRow {
+	border: black solid 1px;
+}
+.boldText
+{
+    FONT-WEIGHT: bold
+}
+A
+{
+    font-family: tahoma,arial,helvetica;
+	color: #4082B1;
+	text-decoration: none;
+	font-size: 12px;
+}
+A:hover
+{
+    font-family: tahoma,arial,helvetica;
+	color: #4082B1;
+	text-decoration: underline;
+	font-size: 12px;
+}
+A:visited
+{
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: FFC671;
+    TEXT-DECORATION: none
+}
+</style>
+
+<script language=javascript>
+	function Command(cmd, param) {
+		var str;
+		var someWin;
+		switch (cmd) {
+			case "NewFile":
+				str = prompt("Please enter a name for the new file", "New File");
+				if(!str) return;
+				else if (!CheckName(str)) {alert("File name can not contain any of the\nfollowing characters: \\ / : * ? \" < > |"); return;}
+				document.forms.formBuffer.parameter.value = str;
+				break;
+			case "NewFolder":
+				str = prompt("Please enter a name for the new folder", "New Folder");
+				if(!str) return;
+				else if (!CheckName(str)) {alert("Folder name can not contain any of the\nfollowing characters: \\ / : * ? \" < > |"); return;}
+				document.forms.formBuffer.parameter.value = str;
+				break;
+			case "Edit":
+				str = document.forms.formBuffer.folder.value + param;
+				someWin = openWin(cmd + str, "", 600, 440, false, false);
+				someWin.focus();
+				createPage(someWin,cmd,param);
+				someWin = null;
+				return;
+				break;
+			case "View":
+				str = document.forms.formBuffer.folder.value + param;
+				someWin = openWin(cmd + str, "", 600, 440, false, true);
+				someWin.focus();
+				createPage(someWin,cmd,param);
+				someWin = null;
+				return;
+				break;
+			case "FileDetails":
+			case "FolderDetails":
+				str = document.forms.formBuffer.folder.value + param;
+				someWin = openWin(cmd + str, "", 350, 220, false, false);
+				someWin.focus();
+				createPage(someWin,cmd,param);
+				someWin = null;
+				return;
+				break;
+			case "Upload":
+				someWin = openWin(cmd, "", 810, 500, true, false);
+				someWin.focus(); 
+				createPage(someWin,cmd,param);
+				someWin = null;
+				return;
+				break;
+			case "DeleteFolder":
+				if (!confirm('Are you sure to delete the folder "' + param + '" and all its contents ?')) return;
+				document.forms.formBuffer.parameter.value = param;
+				break;
+			case "DeleteFile":
+				if (!confirm('Are you sure to delete "' + param + '" ?')) return;
+				document.forms.formBuffer.parameter.value = param;				
+				break;
+			case "RenameFile":
+				str = prompt("Please enter the new name for the file", param);
+				if(!str) return;
+				else if (!CheckName(str)) {alert("File name can not contain any of the\nfollowing characters: \\ / : * ? \" < > |"); return;}
+				document.forms.formBuffer.parameter.value = param + "|" + str;
+				break;
+			case "RenameFolder":
+				str = prompt("Please enter the new name for the folder", param);
+				if(!str) return;
+				else if (!CheckName(str)) {alert("Folder name can not contain any of the\nfollowing characters: \\ / : * ? \" < > |"); return;}
+				document.forms.formBuffer.parameter.value = param + "|" + str;
+				break;
+			case "NoWebAccess":
+				alert("You don't have web access for this folder so\nweb browsing of files/folders will not be available!");
+				return;
+				break;
+			default:
+				document.forms.formBuffer.parameter.value = param;
+		}
+		document.forms.formBuffer.target = "";
+		document.forms.formBuffer.command.value = cmd
+		document.forms.formBuffer.submit();	
+	}
+	
+	function Check() {
+		if (document.forms.formBuffer.pwd.value == "") {
+			alert("You haven't entered the password!"); 
+			return false;
+		} else return true;
+	}
+
+	function openWin(winName, urlLoc, w, h, showStatus, isViewer) {
+		l = (screen.availWidth - w)/2;
+		t = (screen.availHeight - h)/2;
+		features  = "toolbar=no";      // yes|no 
+		features += ",location=no";    // yes|no 
+		features += ",directories=no"; // yes|no 
+		features += ",status=" + (showStatus?"yes":"no");  // yes|no 
+		features += ",menubar=no";     // yes|no 
+		features += ",scrollbars=" + (isViewer?"yes":"no");   // auto|yes|no 
+		features += ",resizable=" + (isViewer?"yes":"no");   // yes|no 
+		features += ",dependent";      // close the parent, close the popup, omit if you want otherwise 
+		features += ",height=" + h;
+		features += ",width=" + w;
+		features += ",left=" + l;
+		features += ",top=" + t;
+		winName = winName.replace(/[^a-z]/gi,"_");
+		return window.open(urlLoc,winName,features);
+	} 
+	
+	function createPage (theWin, cmd, param){
+		document.forms.formBuffer.target = theWin.name;
+		document.forms.formBuffer.command.value = cmd;
+		document.forms.formBuffer.parameter.value = param;
+		document.forms.formBuffer.popup.value = "true";
+		document.forms.formBuffer.submit();
+		document.forms.formBuffer.popup.value = "false";
+	}
+
+	function EditorCommand (cmd) {
+		switch (cmd) {
+			case "Info":
+				alert(document.forms.formBuffer.info.value.replace(/\|/gi,"\n"));
+				break;
+			case "Reload":
+				document.forms.formBuffer.reset();
+				break;
+			case "Save":
+				document.forms.formBuffer.action += "?precommand=Encoding&value=";
+				document.forms.formBuffer.action += document.forms.formBuffer.encoding.options[document.forms.formBuffer.encoding.selectedIndex].value;
+				document.forms.formBuffer.subcommand.value = "Save";
+				document.forms.formBuffer.submit();
+				break;
+			case "SaveAs":
+				var str, oldname;
+				oldname = document.forms.formBuffer.parameter.value;
+				str = prompt("Save the file as :", oldname);
+				if (!str || str==oldname) return;
+				document.forms.formBuffer.action += "?precommand=Encoding&value=";
+				document.forms.formBuffer.action += document.forms.formBuffer.encoding.options[document.forms.formBuffer.encoding.selectedIndex].value;
+				document.forms.formBuffer.parameter.value = str;
+				document.forms.formBuffer.subcommand.value = "SaveAs";
+				document.forms.formBuffer.submit();
+				break;
+			case "Encoding":
+				document.forms.formBuffer.action += "?precommand=Encoding&value=";
+				document.forms.formBuffer.action += document.forms.formBuffer.encoding.options[document.forms.formBuffer.encoding.selectedIndex].value;
+				document.forms.formBuffer.subcommand.value = cmd;
+				document.forms.formBuffer.submit();
+				break;
+		}
+	}
+
+	function ViewerCommand (cmd) {
+		switch (cmd) {
+			case "Info":
+				alert(document.forms.formBuffer.info.value.replace(/\|/gi,"\n"));
+				break;
+			case "Reload":
+				document.forms.formBuffer.submit();
+				break;
+		}
+	}
+
+	function Upload() {
+		document.forms.formBuffer.submit();
+	}
+	
+	function PopupRelogin() {	
+		opener.Command('Refresh');
+		window.close();
+	}
+	
+	function CheckName(str) {
+		var re;
+		re = /[\\\/:*?"<>|]/gi;
+		if (re.test(str)) return false;	
+		else return true;
+	}	
+</script>
+
+<LINK href="www.xperior.co.za/includes/xpstyle.css" rel="stylesheet" type="text/css">
+<style fprolloverstyle>A:hover {color: #FF9B04; font-size: 10px; font-family: Arial; font-weight: bold}
+</style>
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
+<div align="center">
+        <table border="1" width="799" background="../images/backgrd.jpg" bordercolor="#FFB340" style="border-collapse: collapse">
+                <tr>
+                        <td style="border-style: none; border-width: medium">
+
+<!-- Default Statcounter code for QuranUrdu.com
+http://www.quranurducom -->
+<script type="text/javascript">
+var sc_project=12477727; 
+var sc_invisible=1; 
+var sc_security="c39e9d5d"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="website
+statistics" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12477727/0/c39e9d5d/1/"
+alt="website statistics"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+
+<table border="1" width="799" style="border-width: 0px" background="../Header/images/UP%20Side.jpg" height="116">
+                                <tr>
+                                        <td style="border-style: none; border-width: medium" width="194">
+                                        <p align="center">
+                                                <a href="https://www.quranurdu.com">
+                                                <img border="0" src="../Header/images/Quranurdu.gif" width="185" height="37"></a></td>
+                                        <td style="border-style: none; border-width: medium" width="93">&nbsp;</td>
+                                        <td style="border-style: none; border-width: medium" width="170">
+                                        <p align="center">
+                                                <img border="0" src="../Header/images/quran%20logo.gif" width="116" height="85"></td>
+                                        <td style="border-style: none; border-width: medium" width="119"></td>
+                                        <td style="border-style: none; border-width: medium" width="209">
+                                        <p align="center"><a href="http://www.daroos.com/">
+                                                <img border="0" src="../Header/images/Untitled-4.gif" width="185" height="56"></a></td>
+                                </tr>
+                        </table>
+
+<table border="1" width="799" style="border-width: 0px" bgcolor="#CDDDF5" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                                <td style="border-style: none; border-width: medium">
+                                                                <link rel="stylesheet" href="../Header/images/mbcsmb20n5.css" type="text/css" />
+
+
+<!-- Navigation menus created with the free version of Easy CSS Menu downloaded from www.easycssmenu.com
+     You are free to use this menu code for personal, non-commercial use only. Any other use is a serious violation of copyright laws.
+     You are required to retain this comment block in your website code in an unchanged fashion.
+     The above limitations do not apply on menus created with the paid version of the software. -->
+                                                                                                                                <p><link rel="stylesheet" href="../Header/images/mbcsmb20n5.css" type="text/css" />
+
+
+<!-- Navigation menus created with the free version of Easy CSS Menu downloaded from www.easycssmenu.com
+     You are free to use this menu code for personal, non-commercial use only. Any other use is a serious violation of copyright laws.
+     You are required to retain this comment block in your website code in an unchanged fashion.
+     The above limitations do not apply on menus created with the paid version of the software. -->
+<ul id="mb20n5ebul_table" class="mb20n5ebul_menulist css_menu" style="width: 789px; height: 28px;">
+  <li class="topitem spaced_li"><div class="buttonbg gradient_button gradient28" style="width: 86px;"><div class="icon_1"><a href="https://www.quranurdu.com" class="button_1">Home</a></div></div></li>
+  <li class="topitem spaced_li"><div class="buttonbg gradient_button gradient28" style="width: 99px;"><div class="arrow"><div class="icon_2"><a class="button_2">Audio</a></div></div></div>
+  <ul class="gradient_menu gradient162">
+  <li class="gradient_menuitem gradient32 first_item"><a class="with_arrow" title="">Tafheem-ul-Quran</a>
+    <ul class="gradient_menu gradient34">
+    <li class="gradient_menuitem gradient32 first_item last_item"><a href="https://www.quranurdu.com/tafa/" title="">Tafheem-Ul-Quran in URDU By Syed Maududi</a></li>
+    </ul></li>
+  <li class="gradient_menuitem gradient32"><a class="with_arrow" title="">Quran Urdu Translation</a>
+    <ul class="gradient_menu gradient258">
+    <li class="gradient_menuitem gradient32 first_item"><a href="https://www.quranurdu.com/AlQuran-Urdu-Abdul-Rahman-Al-Sudais/" title="">Recitation By Abdul Rahman Al-Sudais with Urdu Translation By Syed Modudi</a></li>
+   
+           <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/AlQuran-Urdu-Ahmad-Al-Ajmi/" title="">Recitation By Ahmad Al-Ajmi with Urdu Translation By Syed Modudi</a></li>
+
+
+    <li class="gradient_menuitem gradient32"><a href="https://quranurdu.com/AlQuran-Urdu-Mishary-Rashid-Alafasy-translation-by-Taqi-Usmani/" title="">Recitation By Sheikh Mishary Rashid Alafasy with Urdu Translation By Muhammad Taqi Usmani</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/quran_ghamdi/" title="">Recitation By Saad Al Ghamdi with Urdu Translation By Syed Modudi</a></li>
+ <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/quran_mishari/" title="">Recitation By Mishary Bin Rashid Al Afasy with Urdu Translation By Syed Modudi</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/quran_hazaifi" title="">Recitation By Imam Al Hazaifi with Urdu  Translation By Syed Modudi</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Quran_SS" title="">Recitation By Imam Al Sudais with Urdu  Translation</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/AlQuranBasit_New" title="">Recitation By Qari Basit with Urdu  Translation</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/quran_qasmi" title="">Recitation By Qari Waheed Zafar Qasmi  with Urdu Translation</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/al_quran_urdu_sadaquat_ali" title="">Recitation By Qari Sadaquat Ali with Urdu  Translation</a></li>
+    <li class="gradient_menuitem gradient32 last_item"><a href="https://www.quranurdu.com/bayanulquran" title="">Bayan-Ul-Quran By Dr. Israr Ahmad With Urdu Translation</a></li>
+    </ul></li>
+  <li class="gradient_menuitem gradient32"><a class="with_arrow" title="">Quran Pushto Translation</a>
+    <ul class="gradient_menu gradient34">
+    <li class="gradient_menuitem gradient32 first_item last_item"><a href="https://www.quranurdu.com/quran_pushto/" title="">Recitation By Mishary Bin Rashid Al Afasy with Pushto Translation By Shafeeq ur Rahman</a></li>
+    </ul></li>
+  <li class="gradient_menuitem gradient32"><a class="with_arrow" title="">Quran Hindi Translation</a>
+    <ul class="gradient_menu gradient34">
+    <li class="gradient_menuitem gradient32 first_item last_item"><a href="https://www.quranurdu.com/Quranhindi" title="">Recitation By Imam Al Sudais  with Hindi Translation</a></li>
+    </ul></li>
+  <li class="gradient_menuitem gradient32 last_item"><a class="with_arrow" title="">Quran Recitations</a>
+    <ul class="gradient_menu gradient258">
+    <li class="gradient_menuitem gradient32 first_item"><a href="https://www.quranurdu.com/AlQuran_Sudais_Recitation" title="">Al Quran Recitation By Sheikh Abdu-ur-Rehman Al Sudes &amp; Shuraim</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Q_Basit" title="">Al Quran Recitation By Qari Abdul Basit</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/AlQuran_Muhammad_Ayub/" title="">Al Quran Recitation By Muhammad Ayub</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Sadaqat/download.asp" title="">Al Quran Recitation By Qari Sadaquat Ali</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Quran_Al_Shatiri" title="">Al Quran Recitation By Sheikh Abu Bakr Al Shatiri</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Recitation_Saad%20Al-Ghamdi" title="">Al Quran Recitation By Saad Al-Ghamdi</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Recitation_Mishary_Alafasi" title="">Al Quran Recitation By Mishary Alafasi</a></li>
+    <li class="gradient_menuitem gradient32 last_item"><a href="https://www.quranurdu.com/Recitation_Saud_Al-Shuraim" title="">Al Quran Recitation By Saud Al-Shuraim</a></li>
+    </ul></li>
+  </ul></li>
+  <li class="topitem spaced_li"><div class="buttonbg gradient_button gradient28"><div class="arrow"><div class="icon_3"><a class="button_3">Read Online</a></div></div></div>
+  <ul class="gradient_menu gradient162">
+  <li class="gradient_menuitem gradient32 first_item"><a class="with_arrow" title="">Tafseer In Urdu</a>
+    <ul class="gradient_menu gradient130">
+    <li class="gradient_menuitem gradient32 first_item"><a href="https://www.quranurdu.com/books/tafheem/Tafheem%20urdu" title="">Complete Tafheem-Ul-Quran in URDU, 6 Volumes</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Tafseer%20Ibn-e-Kaseer" title="">Tafseer Ibn-e-Kaseer in Urdu</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Tafseer_Sh_omer_farooq" title="">Tafseer Surah Al Baqra By Sheikh Farooq Ahmad</a></li>
+    <li class="gradient_menuitem gradient32 last_item"><a href="https://www.quranurdu.com/30p.asp" title="">Tafseer Para 30 By Sheikh Farooq Ahmad</a></li>
+    </ul></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/books/Books_by_Jaleel_Hasan/" title="">Books By Jaleel Hasan</a></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/books/english_books" title="">English Books</a></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/books/urdu_books" title="">Urdu Books</a></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Urdu_Pamphlets/" title="">Urdu Pamphlets</a></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Seerat_Sh_omer_farooq/" title="">Seerat Nabi (P.B.U.H ) By Sheikh Umar Farooq</a></li>
+  <li class="gradient_menuitem gradient32 last_item"><a href="https://www.quranurdu.com/mudarriseen/" title="">Mudarriseen Kai Liay</a></li>
+  </ul></li>
+  <li class="topitem spaced_li"><div class="buttonbg gradient_button gradient28" style="width: 103px;"><div class="arrow"><div class="icon_4"><a class="button_4">Hadith</a></div></div></div>
+  <ul class="gradient_menu gradient130">
+  <li class="gradient_menuitem gradient32 first_item"><a href="https://www.quranurdu.com/Sahih_Muslim" title="">Sahi Muslim 6 Volumes in URDU</a></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Sahih_Bukhari/" title="">Sahi Bukhari 8 Volumes in URDU</a></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Ahadith/" title="">8 Ahadith Books of Umahat</a></li>
+  <li class="gradient_menuitem gradient32 last_item"><a href="https://www.quranurdu.com/Hikmah_Sh_omer_farooq/" title="">Al - Hikmah Ahadith Collection By Sheikh Umar Farooq</a></li>
+  </ul></li>
+  <li class="topitem spaced_li"><div class="buttonbg gradient_button gradient28" style="width: 189px;"><div class="arrow"><div class="icon_5"><a class="button_5">Download CD Images</a></div></div></div>
+  <ul class="gradient_menu gradient322">
+  <li class="gradient_menuitem gradient32 first_item"><a href="https://www.quranurdu.com/Tafheem-ul-Quran_CDs" title="">Tafheem-ul-Quran</a></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Tafheem-ul-Quran_CDs/iso.asp" title="">Tafheem-ul-Quran (PDF)</a></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Tafseer%20Ibn-e-Kaseer/iso.asp" title="">Tafseer Ibn-e-Kaseer</a></li>
+  <li class="gradient_menuitem gradient32"><a class="with_arrow" title="">Quran Urdu Translation</a>
+    <ul class="gradient_menu gradient258">
+    <li class="gradient_menuitem gradient32 first_item"><a href="https://www.quranurdu.com/quran_ghamdi/iso.asp" title="">Recitation By Saad Al Ghamdi with Urdu Translation By Syed Modudi</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/quran_mishari/iso.asp" title="">Recitation By Mishary Bin Rashid Al Afasy with Urdu Translation By Syed Modudi</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/quran_hazaifi/iso.asp" title="">Recitation By Imam Al Hazaifi with Urdu  Translation By Syed Modudi</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Quran_SS/iso.asp" title="">Recitation By Imam Al Sudais with Urdu Translation</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/AlQuranBasit_New/iso.asp" title="">Recitation By Qari Basit with Urdu  Translation</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/quran_qasmi/iso.asp" title="">Recitation By Qari Waheed Zafar Qasmi  with Urdu Translation</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/al_quran_urdu_sadaquat_ali/iso.asp" title="">Recitation By Qari Sadaquat Ali with Urdu  Translation</a></li>
+    <li class="gradient_menuitem gradient32 last_item"><a href="https://www.quranurdu.com/bayanulquran/iso.asp" title="">Bayan-Ul-Quran By Dr. Israr Ahmad With Urdu Translation</a></li>
+    </ul></li>
+  <li class="gradient_menuitem gradient32"><a class="with_arrow" title="">Quran Pushto Translation</a>
+    <ul class="gradient_menu gradient34">
+    <li class="gradient_menuitem gradient32 first_item last_item"><a href="https://www.quranurdu.com/quran_pushto/iso.asp" title="">Recitation By Mishary Bin Rashid Al Afasy with Pushto Translation By Shafeeq ur Rahman</a></li>
+    </ul></li>
+  <li class="gradient_menuitem gradient32"><a class="with_arrow" title="">Quran Hindi Translation</a>
+    <ul class="gradient_menu gradient34">
+    <li class="gradient_menuitem gradient32 first_item last_item"><a href="https://www.quranurdu.com/Quranhindi/iso.asp" title="">Recitation By Imam Al Sudais  with Hindi Translation</a></li>
+    </ul></li>
+  <li class="gradient_menuitem gradient32"><a class="with_arrow" title="">Quran Recitations</a>
+    <ul class="gradient_menu gradient258">
+    <li class="gradient_menuitem gradient32 first_item"><a href="https://www.quranurdu.com/AlQuran_Sudais_Recitation/iso.asp" title="">Al Quran Recitation By Sheikh Abdu-ur-Rehman Al Sudes &amp; Shuraim</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Q_Basit/iso.asp" title="">Al Quran Recitation By Qari Abdul Basit</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/AlQuran_Muhammad_Ayub/iso.asp" title="">Al Quran Recitation By Muhammad Ayub</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Sadaqat/iso.asp" title="">Al Quran Recitation By Qari Sadaquat Ali</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Quran_Al_Shatiri/iso.asp" title="">Al Quran Recitation By Sheikh Abu Bakr Al Shatiri</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Recitation_Saad%20Al-Ghamdi/iso.asp" title="">Al Quran Recitation By Saad Al-Ghamdi</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Recitation_Mishary_Alafasi/iso.asp" title="">Al Quran Recitation By Mishary Alafasi</a></li>
+    <li class="gradient_menuitem gradient32 last_item"><a href="https://www.quranurdu.com/Recitation_Saud_Al-Shuraim/iso.asp" title="">Al Quran Recitation By Saud Al-Shuraim</a></li>
+    </ul></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Sahih_Bukhari/iso.asp" title="">Sahi Bukhari</a></li>
+  <li class="gradient_menuitem gradient32"><a href="https://www.quranurdu.com/Sahih_Muslim/iso.asp" title="">Sahi Muslim</a></li>
+  <li class="gradient_menuitem gradient32 last_item"><a href="https://www.quranurdu.com/download_Quran_Majeed.asp" title="">Quran Majeed Software with Search</a></li>
+  </ul></li>
+  <li class="topitem"><div class="buttonbg gradient_button gradient28" style="width: 114px;"><div class="icon_6"><a href="https://www.quranurdu.com/Contact.asp" class="button_6">Contact Us</a></div></div></li>
+</ul>
+<!-- Menus will work without this javascript file. It is used only for extra
+     effects, improved usability and compatibility with very old web browsers. -->
+<script type="text/javascript" src="../Header/images/mbjsmb20n5.js"></script></td>
+                                                        </tr>
+                                                </table>
+                                                
+</body>
+</html>
+<div align="center">
+
+			
+			
+			
+				&nbsp;<table border="1" width="100%" id="table12" style="border-width: 0px">
+					<tr>
+						<td style="border-style: none; border-width: medium">
+						<p align="center">
+						&nbsp;<img border="0" src="../images/Tafheem%20ul%20Quran.gif" width="172" height="105"><p align="center">
+									
+									
+						</td>
+					</tr>
+				</table>
+			</div>
+<html>
+<body onload="FP_preloadImgs(/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/button6.gif',/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/button5.gif',/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/button9.gif',/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/button8.gif',/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/buttonC.gif',/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/buttonB.gif',/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/button12.gif',/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/button11.gif',/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/button15.gif',/*url*/'file:///C:/Data/Google%20Drive/QU_SERVER/Websites/quranurdu.com/images/images/button14.gif')" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" bgcolor="#EEEDE7" alink="#FF9B04">
+<center>
+
+
+<Table width="780" id="table8">
+<tr>
+<td>
+
+<form name=formGlobal action="noaction" onSubmit="return(false);">
+<table cellpadding=2 border=1 width=100% style="border-collapse: collapse" bordercolor="#FFC671" id="table9">
+	<tr class=lightRow height=60>
+		<td style="border-left-style: solid; border-left-width: 1px; border-top-style: solid; border-top-width: 1px" width="59%">
+			<div style="font-size:12pt;">
+				<p align="left"><font face="Arial"><font size="3">&nbsp;<img align=absmiddle border=0 width=32 height=27 src="./images/folder_open_big.png">&nbsp;</font><span class=boldText><font size="3">volume02</font></span></font></div>
+			
+		</td>
+		<td nowrap style="border-top-style: solid; border-top-width: 1px" width="24%">
+			<span class=boldText><font color="#4082B1" style="font-size: 8pt">11</font></span><font color="#4082B1" style="font-size: 8pt"><font face="Arial"> 
+			subfolder(s)<br>
+			<span class=boldText>0</span> file(s)</font>
+			</font>
+		</td>
+		<td nowrap style="border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px" width="15%">
+			<font face="Arial" color="#4082B1" style="font-size: 8pt">Total 
+			Size: <span class=boldText>666.81 MB</span>
+			</font>
+		</td>
+	</tr>
+	<tr class=titleRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%"><font face="Arial">
+		&nbsp;<span class=boldText><font size="2" color="#4082B1">Name</font></span></font></td>
+		<td width="24%"><font color="#4082B1"><font style="font-size: 8pt">&nbsp;</font><font face="Arial"><span class=boldText><font style="font-size: 8pt">Size</font></span></font></font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font color="#4082B1"><font style="font-size: 8pt">&nbsp;</font><font face="Arial"><span class=boldText><font style="font-size: 8pt">Type</font></span></font></font></td>
+	</tr>
+
+	<tr class=darkRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<span style="font-size: 10pt">&nbsp;</span><a href="javascript:Command('LevelUp');" title="Up One level" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><img align=absmiddle border=0 width=15 height=13 src="./images/folder_up.png"></a><span style="font-size: 10pt">&nbsp;</span><a href="javascript:Command('LevelUp');" title="Up One level" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt">..</a></td>
+		<td width="24%">&nbsp;</td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">&nbsp;</td></tr>
+
+	<tr class=lightRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(007)alaaraf&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(007)alaaraf</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;117.04 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=darkRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(008)alanfal&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(008)alanfal</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;48.64 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=lightRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(009)at-tauba&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(009)at-tauba</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;97.69 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=darkRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(010)younus&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(010)younus</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;68.74 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=lightRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(011)huud&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(011)huud</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;59.86 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=darkRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(012)yousuf&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(012)yousuf</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;67.88 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=lightRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(013)ar-raad&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(013)ar-raad</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;29.41 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=darkRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(014)ibrahim&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(014)ibrahim</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;27.34 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=lightRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(015)al-hijr&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(015)al-hijr</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;23.26 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=darkRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(016)an-nahal&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(016)an-nahal</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;63.99 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+	<tr class=lightRow>
+		<td style="border-left-style: solid; border-left-width: 1px" width="59%">
+		<font face="Arial" style="font-size: 10pt">&nbsp;<a><img align=absmiddle border=0 width=15 height=13 src="./images/folder.png" alt="Folder - Click to learn details"></a>&nbsp;</font><a href="javascript:Command('OpenFolder',&#34;(017)bani-israil&#34;);" title="Open Folder" style="font-family: tahoma,arial,helvetica; color: #4082B1; text-decoration: none; font-size: 10pt"><font face="Arial">(017)bani-israil</font></a></td>
+		<td width="24%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;62.95 MB</font></td>
+		<td style="border-right-style: solid; border-right-width: 1px" width="15%">
+		<font face="Arial" color="#4082B1" style="font-size: 8pt">&nbsp;File folder</font></td>
+	</tr>
+
+</table>
+</form>
+<form method=post action="/tafa/Default.asp" name=formBuffer>
+	<input type="hidden" name=command value="">
+	<input type="hidden" name=parameter value="">
+	<input type="hidden" name=virtual value="">
+	<input type="hidden" name=folder value="volume02\">
+	<input type="hidden" name=popup value="false">
+</form>
+<p>&nbsp;</p>
+
+
+</td>
+</tr>
+</Table>
+</body>
+</html>

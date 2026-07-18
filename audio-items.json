@@ -1,0 +1,930 @@
+[
+  {
+    "volume": "volume01",
+    "surahFolder": "(0001)deebacha",
+    "title": "deebacha",
+    "fileName": "deebacha.mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\\(0001)deebacha\\deebacha.mp3",
+    "folderPath": "volume01\\(0001)deebacha\\"
+  },
+  {
+    "volume": "volume01",
+    "surahFolder": "(0002)muqadma",
+    "title": "muqadma",
+    "fileName": "muqadma.mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\\(0002)muqadma\\muqadma.mp3",
+    "folderPath": "volume01\\(0002)muqadma\\"
+  },
+  {
+    "volume": "volume01",
+    "surahFolder": "(0003)fateha",
+    "title": "fateha(intro)",
+    "fileName": "fateha(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\\(0003)fateha\\fateha(intro).mp3",
+    "folderPath": "volume01\\(0003)fateha\\"
+  },
+  {
+    "volume": "volume01",
+    "surahFolder": "(0004)albaqara",
+    "title": "intro(albaqara)",
+    "fileName": "intro(albaqara).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\\(0004)albaqara\\intro(albaqara).mp3",
+    "folderPath": "volume01\\(0004)albaqara\\"
+  },
+  {
+    "volume": "volume01",
+    "surahFolder": "(0005)aaleimran",
+    "title": "intro(aaleimran)",
+    "fileName": "intro(aaleimran).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\\(0005)aaleimran\\intro(aaleimran).mp3",
+    "folderPath": "volume01\\(0005)aaleimran\\"
+  },
+  {
+    "volume": "volume01",
+    "surahFolder": "(0006)annisa",
+    "title": "intro(an-nisa)",
+    "fileName": "intro(an-nisa).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\\(0006)annisa\\intro(an-nisa).mp3",
+    "folderPath": "volume01\\(0006)annisa\\"
+  },
+  {
+    "volume": "volume01",
+    "surahFolder": "(0007)almaida",
+    "title": "intro(al-maida)",
+    "fileName": "intro(al-maida).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\\(0007)almaida\\intro(al-maida).mp3",
+    "folderPath": "volume01\\(0007)almaida\\"
+  },
+  {
+    "volume": "volume01",
+    "surahFolder": "(0008)alanaam",
+    "title": "intro(alanaam)",
+    "fileName": "intro(alanaam).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\\(0008)alanaam\\intro(alanaam).mp3",
+    "folderPath": "volume01\\(0008)alanaam\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(007)alaaraf",
+    "title": "intro(al-aaraf)",
+    "fileName": "intro(al-aaraf).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(007)alaaraf\\intro(al-aaraf).mp3",
+    "folderPath": "volume02\\(007)alaaraf\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(008)alanfal",
+    "title": "intro(al-anfal)",
+    "fileName": "intro(al-anfal).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(008)alanfal\\intro(al-anfal).mp3",
+    "folderPath": "volume02\\(008)alanfal\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(009)at-tauba",
+    "title": "intro(at-tauba)",
+    "fileName": "intro(at-tauba).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(009)at-tauba\\intro(at-tauba).mp3",
+    "folderPath": "volume02\\(009)at-tauba\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(010)younus",
+    "title": "intro(younus)",
+    "fileName": "intro(younus).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(010)younus\\intro(younus).mp3",
+    "folderPath": "volume02\\(010)younus\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(011)huud",
+    "title": "intro(huud)",
+    "fileName": "intro(huud).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(011)huud\\intro(huud).mp3",
+    "folderPath": "volume02\\(011)huud\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(012)yousuf",
+    "title": "intro(yousuf)",
+    "fileName": "intro(yousuf).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(012)yousuf\\intro(yousuf).mp3",
+    "folderPath": "volume02\\(012)yousuf\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(013)ar-raad",
+    "title": "intro(ar-raad)",
+    "fileName": "intro(ar-raad).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(013)ar-raad\\intro(ar-raad).mp3",
+    "folderPath": "volume02\\(013)ar-raad\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(014)ibrahim",
+    "title": "intro(ibrahim)",
+    "fileName": "intro(ibrahim).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(014)ibrahim\\intro(ibrahim).mp3",
+    "folderPath": "volume02\\(014)ibrahim\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(015)al-hijr",
+    "title": "intro(al-hijr)",
+    "fileName": "intro(al-hijr).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(015)al-hijr\\intro(al-hijr).mp3",
+    "folderPath": "volume02\\(015)al-hijr\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(016)an-nahal",
+    "title": "intro(an-nahal)",
+    "fileName": "intro(an-nahal).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(016)an-nahal\\intro(an-nahal).mp3",
+    "folderPath": "volume02\\(016)an-nahal\\"
+  },
+  {
+    "volume": "volume02",
+    "surahFolder": "(017)bani-israil",
+    "title": "intro(bani-israil)",
+    "fileName": "intro(bani-israil).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\\(017)bani-israil\\intro(bani-israil).mp3",
+    "folderPath": "volume02\\(017)bani-israil\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(018)alkahaf",
+    "title": "al-kahaf(intro)",
+    "fileName": "al-kahaf(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(018)alkahaf\\al-kahaf(intro).mp3",
+    "folderPath": "volume03\\(018)alkahaf\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(019)maryam",
+    "title": "maryam(intro)",
+    "fileName": "maryam(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(019)maryam\\maryam(intro).mp3",
+    "folderPath": "volume03\\(019)maryam\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(020)taha",
+    "title": "(intro)taha",
+    "fileName": "(intro)taha.mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(020)taha\\(intro)taha.mp3",
+    "folderPath": "volume03\\(020)taha\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(021)al-anbia",
+    "title": "al-anbia(intro)",
+    "fileName": "al-anbia(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(021)al-anbia\\al-anbia(intro).mp3",
+    "folderPath": "volume03\\(021)al-anbia\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(022)al-hajj",
+    "title": "al-hajj(intro)",
+    "fileName": "al-hajj(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(022)al-hajj\\al-hajj(intro).mp3",
+    "folderPath": "volume03\\(022)al-hajj\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(023)al-mominoon",
+    "title": "al-mominoon(intro)",
+    "fileName": "al-mominoon(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(023)al-mominoon\\al-mominoon(intro).mp3",
+    "folderPath": "volume03\\(023)al-mominoon\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(024)an-noor",
+    "title": "an-noor(intro)",
+    "fileName": "an-noor(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(024)an-noor\\an-noor(intro).mp3",
+    "folderPath": "volume03\\(024)an-noor\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(025)al-furqan",
+    "title": "al-furqan(intro)",
+    "fileName": "al-furqan(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(025)al-furqan\\al-furqan(intro).mp3",
+    "folderPath": "volume03\\(025)al-furqan\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(026)ash-shoara",
+    "title": "ash-shoara(intro)",
+    "fileName": "ash-shoara(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(026)ash-shoara\\ash-shoara(intro).mp3",
+    "folderPath": "volume03\\(026)ash-shoara\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(027)an-namal",
+    "title": "an-namal(intro)",
+    "fileName": "an-namal(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(027)an-namal\\an-namal(intro).mp3",
+    "folderPath": "volume03\\(027)an-namal\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(028)al-qasas",
+    "title": "al-qasas(intro)",
+    "fileName": "al-qasas(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(028)al-qasas\\al-qasas(intro).mp3",
+    "folderPath": "volume03\\(028)al-qasas\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(029)al-ankaboot",
+    "title": "al-ankaboot(intro)",
+    "fileName": "al-ankaboot(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(029)al-ankaboot\\al-ankaboot(intro).mp3",
+    "folderPath": "volume03\\(029)al-ankaboot\\"
+  },
+  {
+    "volume": "volume03",
+    "surahFolder": "(030)ar-room",
+    "title": "ar-room(intro)",
+    "fileName": "ar-room(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\\(030)ar-room\\ar-room(intro).mp3",
+    "folderPath": "volume03\\(030)ar-room\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(31)luqman",
+    "title": "luqman(intro)",
+    "fileName": "luqman(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(31)luqman\\luqman(intro).mp3",
+    "folderPath": "volume04\\(31)luqman\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(32)as-sijda",
+    "title": "as-sijda(intro)",
+    "fileName": "as-sijda(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(32)as-sijda\\as-sijda(intro).mp3",
+    "folderPath": "volume04\\(32)as-sijda\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(33)al-ahzab",
+    "title": "al-ahzab(intro)",
+    "fileName": "al-ahzab(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(33)al-ahzab\\al-ahzab(intro).mp3",
+    "folderPath": "volume04\\(33)al-ahzab\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(34)saba",
+    "title": "(intro)saba",
+    "fileName": "(intro)saba.mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(34)saba\\(intro)saba.mp3",
+    "folderPath": "volume04\\(34)saba\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(35)fatir",
+    "title": "fatir(intro)",
+    "fileName": "fatir(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(35)fatir\\fatir(intro).mp3",
+    "folderPath": "volume04\\(35)fatir\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(36)yaaseen",
+    "title": "(intro)yaaseen",
+    "fileName": "(intro)yaaseen.mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(36)yaaseen\\(intro)yaaseen.mp3",
+    "folderPath": "volume04\\(36)yaaseen\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(37)as-saaffat",
+    "title": "as-saaffat(intro)",
+    "fileName": "as-saaffat(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(37)as-saaffat\\as-saaffat(intro).mp3",
+    "folderPath": "volume04\\(37)as-saaffat\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(38)suad",
+    "title": "intro(suad)",
+    "fileName": "intro(suad).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(38)suad\\intro(suad).mp3",
+    "folderPath": "volume04\\(38)suad\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(39)az-zumar",
+    "title": "az-zumar(intro)",
+    "fileName": "az-zumar(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(39)az-zumar\\az-zumar(intro).mp3",
+    "folderPath": "volume04\\(39)az-zumar\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(40)al-momin",
+    "title": "al-momin(intro)",
+    "fileName": "al-momin(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(40)al-momin\\al-momin(intro).mp3",
+    "folderPath": "volume04\\(40)al-momin\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(41)h.m.as-sijda",
+    "title": "hameemas-sijda(intro)",
+    "fileName": "hameemas-sijda(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(41)h.m.as-sijda\\hameemas-sijda(intro).mp3",
+    "folderPath": "volume04\\(41)h.m.as-sijda\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(42)ash-shoora",
+    "title": "ash-shoora(intro)",
+    "fileName": "ash-shoora(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(42)ash-shoora\\ash-shoora(intro).mp3",
+    "folderPath": "volume04\\(42)ash-shoora\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(43)az-zukhraf",
+    "title": "az-zukhruf(intro)",
+    "fileName": "az-zukhruf(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(43)az-zukhraf\\az-zukhruf(intro).mp3",
+    "folderPath": "volume04\\(43)az-zukhraf\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(44)ad-dukhan",
+    "title": "ad-dukhan(intro)",
+    "fileName": "ad-dukhan(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(44)ad-dukhan\\ad-dukhan(intro).mp3",
+    "folderPath": "volume04\\(44)ad-dukhan\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(45)al-jasia",
+    "title": "al-jasiya(intro)",
+    "fileName": "al-jasiya(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(45)al-jasia\\al-jasiya(intro).mp3",
+    "folderPath": "volume04\\(45)al-jasia\\"
+  },
+  {
+    "volume": "volume04",
+    "surahFolder": "(46)al-ahqaf",
+    "title": "al-ahqaf(intro)",
+    "fileName": "al-ahqaf(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\\(46)al-ahqaf\\al-ahqaf(intro).mp3",
+    "folderPath": "volume04\\(46)al-ahqaf\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(47)mohammad",
+    "title": "(intro)mohammad",
+    "fileName": "(intro)mohammad.mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(47)mohammad\\(intro)mohammad.mp3",
+    "folderPath": "volume05\\(47)mohammad\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(48)al-fatah",
+    "title": "al-fatah(intro)",
+    "fileName": "al-fatah(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(48)al-fatah\\al-fatah(intro).mp3",
+    "folderPath": "volume05\\(48)al-fatah\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(49)al-hujurat",
+    "title": "al-hujurat(intro)",
+    "fileName": "al-hujurat(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(49)al-hujurat\\al-hujurat(intro).mp3",
+    "folderPath": "volume05\\(49)al-hujurat\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(50)qaaf",
+    "title": "(intro)qaff",
+    "fileName": "(intro)qaff.mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(50)qaaf\\(intro)qaff.mp3",
+    "folderPath": "volume05\\(50)qaaf\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(51)az-zariat",
+    "title": "az-zariyat(intro)",
+    "fileName": "az-zariyat(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(51)az-zariat\\az-zariyat(intro).mp3",
+    "folderPath": "volume05\\(51)az-zariat\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(52)at-toor",
+    "title": "at-toor(intro)",
+    "fileName": "at-toor(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(52)at-toor\\at-toor(intro).mp3",
+    "folderPath": "volume05\\(52)at-toor\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(53)an-najm",
+    "title": "an-najm(intro)",
+    "fileName": "an-najm(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(53)an-najm\\an-najm(intro).mp3",
+    "folderPath": "volume05\\(53)an-najm\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(54)al-qamar",
+    "title": "al-qamar(intro)",
+    "fileName": "al-qamar(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(54)al-qamar\\al-qamar(intro).mp3",
+    "folderPath": "volume05\\(54)al-qamar\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(55)ar-rahman",
+    "title": "ar-rahman(intro)",
+    "fileName": "ar-rahman(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(55)ar-rahman\\ar-rahman(intro).mp3",
+    "folderPath": "volume05\\(55)ar-rahman\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(56)al-waqayya",
+    "title": "al-waqayya(intro)",
+    "fileName": "al-waqayya(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(56)al-waqayya\\al-waqayya(intro).mp3",
+    "folderPath": "volume05\\(56)al-waqayya\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(57)al-hadeed",
+    "title": "al-hadeed(intro)",
+    "fileName": "al-hadeed(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(57)al-hadeed\\al-hadeed(intro).mp3",
+    "folderPath": "volume05\\(57)al-hadeed\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(58)al-mujadla",
+    "title": "al-mujadla(intro)",
+    "fileName": "al-mujadla(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(58)al-mujadla\\al-mujadla(intro).mp3",
+    "folderPath": "volume05\\(58)al-mujadla\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(59)al-hashr",
+    "title": "alhashr(intro)",
+    "fileName": "alhashr(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(59)al-hashr\\alhashr(intro).mp3",
+    "folderPath": "volume05\\(59)al-hashr\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(60)al-mumtahina",
+    "title": "al-mumtahina(intro)",
+    "fileName": "al-mumtahina(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(60)al-mumtahina\\al-mumtahina(intro).mp3",
+    "folderPath": "volume05\\(60)al-mumtahina\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(61)as-saff",
+    "title": "as-saff(intro)",
+    "fileName": "as-saff(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(61)as-saff\\as-saff(intro).mp3",
+    "folderPath": "volume05\\(61)as-saff\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(62)al-juma",
+    "title": "al-juma(intro)",
+    "fileName": "al-juma(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(62)al-juma\\al-juma(intro).mp3",
+    "folderPath": "volume05\\(62)al-juma\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(63)al-munafiqoon",
+    "title": "al-munafiqoon(intro)",
+    "fileName": "al-munafiqoon(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(63)al-munafiqoon\\al-munafiqoon(intro).mp3",
+    "folderPath": "volume05\\(63)al-munafiqoon\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(64)at-taghabun",
+    "title": "at-taghabun(intro)",
+    "fileName": "at-taghabun(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(64)at-taghabun\\at-taghabun(intro).mp3",
+    "folderPath": "volume05\\(64)at-taghabun\\"
+  },
+  {
+    "volume": "volume05",
+    "surahFolder": "(65)at-talaq",
+    "title": "at-talaq(intro)",
+    "fileName": "at-talaq(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\\(65)at-talaq\\at-talaq(intro).mp3",
+    "folderPath": "volume05\\(65)at-talaq\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(066)at-tehreem",
+    "title": "at-tehreem(intro)",
+    "fileName": "at-tehreem(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(066)at-tehreem\\at-tehreem(intro).mp3",
+    "folderPath": "volume06\\(066)at-tehreem\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(067)al-mulk",
+    "title": "al-mulk(intro)",
+    "fileName": "al-mulk(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(067)al-mulk\\al-mulk(intro).mp3",
+    "folderPath": "volume06\\(067)al-mulk\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(068)al-qalam",
+    "title": "al-qalam(intro)",
+    "fileName": "al-qalam(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(068)al-qalam\\al-qalam(intro).mp3",
+    "folderPath": "volume06\\(068)al-qalam\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(069)al-haqqa",
+    "title": "al-haqqa(intro)",
+    "fileName": "al-haqqa(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(069)al-haqqa\\al-haqqa(intro).mp3",
+    "folderPath": "volume06\\(069)al-haqqa\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(070)al-maarij",
+    "title": "al-maarij(intro)",
+    "fileName": "al-maarij(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(070)al-maarij\\al-maarij(intro).mp3",
+    "folderPath": "volume06\\(070)al-maarij\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(071)nooh",
+    "title": "an-nooh(intro)",
+    "fileName": "an-nooh(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(071)nooh\\an-nooh(intro).mp3",
+    "folderPath": "volume06\\(071)nooh\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(072)al-jin",
+    "title": "al-jinn(intro)",
+    "fileName": "al-jinn(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(072)al-jin\\al-jinn(intro).mp3",
+    "folderPath": "volume06\\(072)al-jin\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(073)al-muzzammil",
+    "title": "al-muzzammil(intro)",
+    "fileName": "al-muzzammil(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(073)al-muzzammil\\al-muzzammil(intro).mp3",
+    "folderPath": "volume06\\(073)al-muzzammil\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(074)al-muddassir",
+    "title": "al-muddassir(intro)",
+    "fileName": "al-muddassir(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(074)al-muddassir\\al-muddassir(intro).mp3",
+    "folderPath": "volume06\\(074)al-muddassir\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(075)al-qiyamma",
+    "title": "al-qiyama(intro)",
+    "fileName": "al-qiyama(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(075)al-qiyamma\\al-qiyama(intro).mp3",
+    "folderPath": "volume06\\(075)al-qiyamma\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(076)ad-dahr",
+    "title": "ad-dahar(intro)",
+    "fileName": "ad-dahar(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(076)ad-dahr\\ad-dahar(intro).mp3",
+    "folderPath": "volume06\\(076)ad-dahr\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(077)al-mursalat",
+    "title": "al-mursalat(intro)",
+    "fileName": "al-mursalat(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(077)al-mursalat\\al-mursalat(intro).mp3",
+    "folderPath": "volume06\\(077)al-mursalat\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(078)an-naba",
+    "title": "an-naba(intro)",
+    "fileName": "an-naba(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(078)an-naba\\an-naba(intro).mp3",
+    "folderPath": "volume06\\(078)an-naba\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(079)an-nazayaat",
+    "title": "an-nazayaat(intro)",
+    "fileName": "an-nazayaat(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(079)an-nazayaat\\an-nazayaat(intro).mp3",
+    "folderPath": "volume06\\(079)an-nazayaat\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(080)abass",
+    "title": "abass(intro)",
+    "fileName": "abass(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(080)abass\\abass(intro).mp3",
+    "folderPath": "volume06\\(080)abass\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(081)at-takveer",
+    "title": "at-takveer(intro)",
+    "fileName": "at-takveer(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(081)at-takveer\\at-takveer(intro).mp3",
+    "folderPath": "volume06\\(081)at-takveer\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(082)al-infitar",
+    "title": "al-infitar(intro)",
+    "fileName": "al-infitar(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(082)al-infitar\\al-infitar(intro).mp3",
+    "folderPath": "volume06\\(082)al-infitar\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(083)al-mutaffifeen",
+    "title": "al-mutafifeen(intro)",
+    "fileName": "al-mutafifeen(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(083)al-mutaffifeen\\al-mutafifeen(intro).mp3",
+    "folderPath": "volume06\\(083)al-mutaffifeen\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(084)al-inshiqaq",
+    "title": "al-inshiqaq(intro)",
+    "fileName": "al-inshiqaq(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(084)al-inshiqaq\\al-inshiqaq(intro).mp3",
+    "folderPath": "volume06\\(084)al-inshiqaq\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(085)al-burooj",
+    "title": "al-burooj(intro)",
+    "fileName": "al-burooj(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(085)al-burooj\\al-burooj(intro).mp3",
+    "folderPath": "volume06\\(085)al-burooj\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(086)at-tariq",
+    "title": "at-tariq(intro)",
+    "fileName": "at-tariq(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(086)at-tariq\\at-tariq(intro).mp3",
+    "folderPath": "volume06\\(086)at-tariq\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(087)al-aala",
+    "title": "alaala(intro)",
+    "fileName": "alaala(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(087)al-aala\\alaala(intro).mp3",
+    "folderPath": "volume06\\(087)al-aala\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(088)al-ghashiya",
+    "title": "al-ghashiya(intro)",
+    "fileName": "al-ghashiya(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(088)al-ghashiya\\al-ghashiya(intro).mp3",
+    "folderPath": "volume06\\(088)al-ghashiya\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(089)al-fajr",
+    "title": "al-fajr(intro)",
+    "fileName": "al-fajr(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(089)al-fajr\\al-fajr(intro).mp3",
+    "folderPath": "volume06\\(089)al-fajr\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(090)al-balad",
+    "title": "al-balad(intro)",
+    "fileName": "al-balad(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(090)al-balad\\al-balad(intro).mp3",
+    "folderPath": "volume06\\(090)al-balad\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(091)ash-shams",
+    "title": "ash-shams(intro)",
+    "fileName": "ash-shams(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(091)ash-shams\\ash-shams(intro).mp3",
+    "folderPath": "volume06\\(091)ash-shams\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(092)al-lail",
+    "title": "al-lail(intro)",
+    "fileName": "al-lail(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(092)al-lail\\al-lail(intro).mp3",
+    "folderPath": "volume06\\(092)al-lail\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(093)az-zuha",
+    "title": "az-zuha(intro)",
+    "fileName": "az-zuha(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(093)az-zuha\\az-zuha(intro).mp3",
+    "folderPath": "volume06\\(093)az-zuha\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(094)alamnashrah",
+    "title": "alamnashrah(intro)",
+    "fileName": "alamnashrah(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(094)alamnashrah\\alamnashrah(intro).mp3",
+    "folderPath": "volume06\\(094)alamnashrah\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(095)at-teen",
+    "title": "at-teen(intro)",
+    "fileName": "at-teen(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(095)at-teen\\at-teen(intro).mp3",
+    "folderPath": "volume06\\(095)at-teen\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(096)al-alaq",
+    "title": "al-alaq(intro)",
+    "fileName": "al-alaq(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(096)al-alaq\\al-alaq(intro).mp3",
+    "folderPath": "volume06\\(096)al-alaq\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(097)al-qadr",
+    "title": "al-qadr(intro)",
+    "fileName": "al-qadr(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(097)al-qadr\\al-qadr(intro).mp3",
+    "folderPath": "volume06\\(097)al-qadr\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(098)al-bayyena",
+    "title": "al-bayyena(intro)",
+    "fileName": "al-bayyena(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(098)al-bayyena\\al-bayyena(intro).mp3",
+    "folderPath": "volume06\\(098)al-bayyena\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(099)az-zilzal",
+    "title": "az-zilzal(intro)",
+    "fileName": "az-zilzal(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(099)az-zilzal\\az-zilzal(intro).mp3",
+    "folderPath": "volume06\\(099)az-zilzal\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(100)al-aadiyat",
+    "title": "al-adiyat(intro)",
+    "fileName": "al-adiyat(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(100)al-aadiyat\\al-adiyat(intro).mp3",
+    "folderPath": "volume06\\(100)al-aadiyat\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(101)al-qaariya",
+    "title": "al-qariya(intro)",
+    "fileName": "al-qariya(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(101)al-qaariya\\al-qariya(intro).mp3",
+    "folderPath": "volume06\\(101)al-qaariya\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(102)at-takasur",
+    "title": "at-takasur(intro)",
+    "fileName": "at-takasur(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(102)at-takasur\\at-takasur(intro).mp3",
+    "folderPath": "volume06\\(102)at-takasur\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(103)al-asr",
+    "title": "al-asr(intro)",
+    "fileName": "al-asr(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(103)al-asr\\al-asr(intro).mp3",
+    "folderPath": "volume06\\(103)al-asr\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(104)al-humaza",
+    "title": "al-humaza(intro)",
+    "fileName": "al-humaza(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(104)al-humaza\\al-humaza(intro).mp3",
+    "folderPath": "volume06\\(104)al-humaza\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(105)al-feel",
+    "title": "al-feel(intro)",
+    "fileName": "al-feel(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(105)al-feel\\al-feel(intro).mp3",
+    "folderPath": "volume06\\(105)al-feel\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(106)quraish",
+    "title": "quraish(intro)",
+    "fileName": "quraish(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(106)quraish\\quraish(intro).mp3",
+    "folderPath": "volume06\\(106)quraish\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(107)al-maoon",
+    "title": "al-maoon(intro)",
+    "fileName": "al-maoon(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(107)al-maoon\\al-maoon(intro).mp3",
+    "folderPath": "volume06\\(107)al-maoon\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(108)al-kausar",
+    "title": "al-kausar(intro)",
+    "fileName": "al-kausar(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(108)al-kausar\\al-kausar(intro).mp3",
+    "folderPath": "volume06\\(108)al-kausar\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(109)al-kafiroon",
+    "title": "al-kafiroon(intro)",
+    "fileName": "al-kafiroon(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(109)al-kafiroon\\al-kafiroon(intro).mp3",
+    "folderPath": "volume06\\(109)al-kafiroon\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(110)an-nasr",
+    "title": "an-nasr(intro)",
+    "fileName": "an-nasr(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(110)an-nasr\\an-nasr(intro).mp3",
+    "folderPath": "volume06\\(110)an-nasr\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(111)al-lahab",
+    "title": "al-lahab(intro)",
+    "fileName": "al-lahab(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(111)al-lahab\\al-lahab(intro).mp3",
+    "folderPath": "volume06\\(111)al-lahab\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(112)al-ikhlas",
+    "title": "al-ikhlas(intro)",
+    "fileName": "al-ikhlas(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(112)al-ikhlas\\al-ikhlas(intro).mp3",
+    "folderPath": "volume06\\(112)al-ikhlas\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(113)al-falaq",
+    "title": "muavezatain(intro)",
+    "fileName": "muavezatain(intro).mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(113)al-falaq\\muavezatain(intro).mp3",
+    "folderPath": "volume06\\(113)al-falaq\\"
+  },
+  {
+    "volume": "volume06",
+    "surahFolder": "(114)an-naas",
+    "title": "rukoo01an-naas",
+    "fileName": "rukoo01an-naas.mp3",
+    "url": "http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\\(114)an-naas\\rukoo01an-naas.mp3",
+    "folderPath": "volume06\\(114)an-naas\\"
+  }
+]

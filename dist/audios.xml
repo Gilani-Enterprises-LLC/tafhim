@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library title="Tafheem-ul-Quran by Syed Maududi" source="https://www.quranurdu.com/tafa/">
+  <volume id="volume01" label="Volume 01">
+    <audio id="volume01/(0001)deebacha" order="0001" slug="deebacha" title="Deebacha" file="deebacha.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\(0001)deebacha\deebacha.mp3" />
+    <audio id="volume01/(0002)muqadma" order="0002" slug="muqadma" title="Muqadma" file="muqadma.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\(0002)muqadma\muqadma.mp3" />
+    <audio id="volume01/(0003)fateha" order="0003" slug="fateha" title="Fateha" file="fateha.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\(0003)fateha\fateha.mp3" />
+    <audio id="volume01/(0004)albaqara" order="0004" slug="albaqara" title="Albaqara" file="albaqara.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\(0004)albaqara\albaqara.mp3" />
+    <audio id="volume01/(0005)aaleimran" order="0005" slug="aaleimran" title="Aaleimran" file="aaleimran.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\(0005)aaleimran\aaleimran.mp3" />
+    <audio id="volume01/(0006)annisa" order="0006" slug="annisa" title="Annisa" file="annisa.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\(0006)annisa\annisa.mp3" />
+    <audio id="volume01/(0007)almaida" order="0007" slug="almaida" title="Almaida" file="almaida.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\(0007)almaida\almaida.mp3" />
+    <audio id="volume01/(0008)alanaam" order="0008" slug="alanaam" title="Alanaam" file="alanaam.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume01\(0008)alanaam\alanaam.mp3" />
+  </volume>
+  <volume id="volume02" label="Volume 02">
+    <audio id="volume02/(007)alaaraf" order="007" slug="alaaraf" title="Alaaraf" file="alaaraf.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(007)alaaraf\alaaraf.mp3" />
+    <audio id="volume02/(008)alanfal" order="008" slug="alanfal" title="Alanfal" file="alanfal.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(008)alanfal\alanfal.mp3" />
+    <audio id="volume02/(009)at-tauba" order="009" slug="at-tauba" title="At Tauba" file="at-tauba.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(009)at-tauba\at-tauba.mp3" />
+    <audio id="volume02/(010)younus" order="010" slug="younus" title="Younus" file="younus.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(010)younus\younus.mp3" />
+    <audio id="volume02/(011)huud" order="011" slug="huud" title="Huud" file="huud.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(011)huud\huud.mp3" />
+    <audio id="volume02/(012)yousuf" order="012" slug="yousuf" title="Yousuf" file="yousuf.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(012)yousuf\yousuf.mp3" />
+    <audio id="volume02/(013)ar-raad" order="013" slug="ar-raad" title="Ar Raad" file="ar-raad.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(013)ar-raad\ar-raad.mp3" />
+    <audio id="volume02/(014)ibrahim" order="014" slug="ibrahim" title="Ibrahim" file="ibrahim.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(014)ibrahim\ibrahim.mp3" />
+    <audio id="volume02/(015)al-hijr" order="015" slug="al-hijr" title="Al Hijr" file="al-hijr.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(015)al-hijr\al-hijr.mp3" />
+    <audio id="volume02/(016)an-nahal" order="016" slug="an-nahal" title="An Nahal" file="an-nahal.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(016)an-nahal\an-nahal.mp3" />
+    <audio id="volume02/(017)bani-israil" order="017" slug="bani-israil" title="Bani Israil" file="bani-israil.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume02\(017)bani-israil\bani-israil.mp3" />
+  </volume>
+  <volume id="volume03" label="Volume 03">
+    <audio id="volume03/(018)alkahaf" order="018" slug="alkahaf" title="Alkahaf" file="alkahaf.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(018)alkahaf\alkahaf.mp3" />
+    <audio id="volume03/(019)maryam" order="019" slug="maryam" title="Maryam" file="maryam.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(019)maryam\maryam.mp3" />
+    <audio id="volume03/(020)taha" order="020" slug="taha" title="Taha" file="taha.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(020)taha\taha.mp3" />
+    <audio id="volume03/(021)al-anbia" order="021" slug="al-anbia" title="Al Anbia" file="al-anbia.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(021)al-anbia\al-anbia.mp3" />
+    <audio id="volume03/(022)al-hajj" order="022" slug="al-hajj" title="Al Hajj" file="al-hajj.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(022)al-hajj\al-hajj.mp3" />
+    <audio id="volume03/(023)al-mominoon" order="023" slug="al-mominoon" title="Al Mominoon" file="al-mominoon.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(023)al-mominoon\al-mominoon.mp3" />
+    <audio id="volume03/(024)an-noor" order="024" slug="an-noor" title="An Noor" file="an-noor.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(024)an-noor\an-noor.mp3" />
+    <audio id="volume03/(025)al-furqan" order="025" slug="al-furqan" title="Al Furqan" file="al-furqan.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(025)al-furqan\al-furqan.mp3" />
+    <audio id="volume03/(026)ash-shoara" order="026" slug="ash-shoara" title="Ash Shoara" file="ash-shoara.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(026)ash-shoara\ash-shoara.mp3" />
+    <audio id="volume03/(027)an-namal" order="027" slug="an-namal" title="An Namal" file="an-namal.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(027)an-namal\an-namal.mp3" />
+    <audio id="volume03/(028)al-qasas" order="028" slug="al-qasas" title="Al Qasas" file="al-qasas.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(028)al-qasas\al-qasas.mp3" />
+    <audio id="volume03/(029)al-ankaboot" order="029" slug="al-ankaboot" title="Al Ankaboot" file="al-ankaboot.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(029)al-ankaboot\al-ankaboot.mp3" />
+    <audio id="volume03/(030)ar-room" order="030" slug="ar-room" title="Ar Room" file="ar-room.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume03\(030)ar-room\ar-room.mp3" />
+  </volume>
+  <volume id="volume04" label="Volume 04">
+    <audio id="volume04/(31)luqman" order="31" slug="luqman" title="Luqman" file="luqman.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(31)luqman\luqman.mp3" />
+    <audio id="volume04/(32)as-sijda" order="32" slug="as-sijda" title="As Sijda" file="as-sijda.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(32)as-sijda\as-sijda.mp3" />
+    <audio id="volume04/(33)al-ahzab" order="33" slug="al-ahzab" title="Al Ahzab" file="al-ahzab.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(33)al-ahzab\al-ahzab.mp3" />
+    <audio id="volume04/(34)saba" order="34" slug="saba" title="Saba" file="saba.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(34)saba\saba.mp3" />
+    <audio id="volume04/(35)fatir" order="35" slug="fatir" title="Fatir" file="fatir.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(35)fatir\fatir.mp3" />
+    <audio id="volume04/(36)yaaseen" order="36" slug="yaaseen" title="Yaaseen" file="yaaseen.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(36)yaaseen\yaaseen.mp3" />
+    <audio id="volume04/(37)as-saaffat" order="37" slug="as-saaffat" title="As Saaffat" file="as-saaffat.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(37)as-saaffat\as-saaffat.mp3" />
+    <audio id="volume04/(38)suad" order="38" slug="suad" title="Suad" file="suad.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(38)suad\suad.mp3" />
+    <audio id="volume04/(39)az-zumar" order="39" slug="az-zumar" title="Az Zumar" file="az-zumar.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(39)az-zumar\az-zumar.mp3" />
+    <audio id="volume04/(40)al-momin" order="40" slug="al-momin" title="Al Momin" file="al-momin.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(40)al-momin\al-momin.mp3" />
+    <audio id="volume04/(41)h.m.as-sijda" order="41" slug="h.m.as-sijda" title="H.m.as Sijda" file="h.m.as-sijda.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(41)h.m.as-sijda\h.m.as-sijda.mp3" />
+    <audio id="volume04/(42)ash-shoora" order="42" slug="ash-shoora" title="Ash Shoora" file="ash-shoora.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(42)ash-shoora\ash-shoora.mp3" />
+    <audio id="volume04/(43)az-zukhraf" order="43" slug="az-zukhraf" title="Az Zukhraf" file="az-zukhraf.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(43)az-zukhraf\az-zukhraf.mp3" />
+    <audio id="volume04/(44)ad-dukhan" order="44" slug="ad-dukhan" title="Ad Dukhan" file="ad-dukhan.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(44)ad-dukhan\ad-dukhan.mp3" />
+    <audio id="volume04/(45)al-jasia" order="45" slug="al-jasia" title="Al Jasia" file="al-jasia.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(45)al-jasia\al-jasia.mp3" />
+    <audio id="volume04/(46)al-ahqaf" order="46" slug="al-ahqaf" title="Al Ahqaf" file="al-ahqaf.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume04\(46)al-ahqaf\al-ahqaf.mp3" />
+  </volume>
+  <volume id="volume05" label="Volume 05">
+    <audio id="volume05/(47)mohammad" order="47" slug="mohammad" title="Mohammad" file="mohammad.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(47)mohammad\mohammad.mp3" />
+    <audio id="volume05/(48)al-fatah" order="48" slug="al-fatah" title="Al Fatah" file="al-fatah.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(48)al-fatah\al-fatah.mp3" />
+    <audio id="volume05/(49)al-hujurat" order="49" slug="al-hujurat" title="Al Hujurat" file="al-hujurat.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(49)al-hujurat\al-hujurat.mp3" />
+    <audio id="volume05/(50)qaaf" order="50" slug="qaaf" title="Qaaf" file="qaaf.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(50)qaaf\qaaf.mp3" />
+    <audio id="volume05/(51)az-zariat" order="51" slug="az-zariat" title="Az Zariat" file="az-zariat.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(51)az-zariat\az-zariat.mp3" />
+    <audio id="volume05/(52)at-toor" order="52" slug="at-toor" title="At Toor" file="at-toor.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(52)at-toor\at-toor.mp3" />
+    <audio id="volume05/(53)an-najm" order="53" slug="an-najm" title="An Najm" file="an-najm.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(53)an-najm\an-najm.mp3" />
+    <audio id="volume05/(54)al-qamar" order="54" slug="al-qamar" title="Al Qamar" file="al-qamar.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(54)al-qamar\al-qamar.mp3" />
+    <audio id="volume05/(55)ar-rahman" order="55" slug="ar-rahman" title="Ar Rahman" file="ar-rahman.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(55)ar-rahman\ar-rahman.mp3" />
+    <audio id="volume05/(56)al-waqayya" order="56" slug="al-waqayya" title="Al Waqayya" file="al-waqayya.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(56)al-waqayya\al-waqayya.mp3" />
+    <audio id="volume05/(57)al-hadeed" order="57" slug="al-hadeed" title="Al Hadeed" file="al-hadeed.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(57)al-hadeed\al-hadeed.mp3" />
+    <audio id="volume05/(58)al-mujadla" order="58" slug="al-mujadla" title="Al Mujadla" file="al-mujadla.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(58)al-mujadla\al-mujadla.mp3" />
+    <audio id="volume05/(59)al-hashr" order="59" slug="al-hashr" title="Al Hashr" file="al-hashr.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(59)al-hashr\al-hashr.mp3" />
+    <audio id="volume05/(60)al-mumtahina" order="60" slug="al-mumtahina" title="Al Mumtahina" file="al-mumtahina.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(60)al-mumtahina\al-mumtahina.mp3" />
+    <audio id="volume05/(61)as-saff" order="61" slug="as-saff" title="As Saff" file="as-saff.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(61)as-saff\as-saff.mp3" />
+    <audio id="volume05/(62)al-juma" order="62" slug="al-juma" title="Al Juma" file="al-juma.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(62)al-juma\al-juma.mp3" />
+    <audio id="volume05/(63)al-munafiqoon" order="63" slug="al-munafiqoon" title="Al Munafiqoon" file="al-munafiqoon.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(63)al-munafiqoon\al-munafiqoon.mp3" />
+    <audio id="volume05/(64)at-taghabun" order="64" slug="at-taghabun" title="At Taghabun" file="at-taghabun.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(64)at-taghabun\at-taghabun.mp3" />
+    <audio id="volume05/(65)at-talaq" order="65" slug="at-talaq" title="At Talaq" file="at-talaq.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume05\(65)at-talaq\at-talaq.mp3" />
+  </volume>
+  <volume id="volume06" label="Volume 06">
+    <audio id="volume06/(066)at-tehreem" order="066" slug="at-tehreem" title="At Tehreem" file="at-tehreem.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(066)at-tehreem\at-tehreem.mp3" />
+    <audio id="volume06/(067)al-mulk" order="067" slug="al-mulk" title="Al Mulk" file="al-mulk.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(067)al-mulk\al-mulk.mp3" />
+    <audio id="volume06/(068)al-qalam" order="068" slug="al-qalam" title="Al Qalam" file="al-qalam.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(068)al-qalam\al-qalam.mp3" />
+    <audio id="volume06/(069)al-haqqa" order="069" slug="al-haqqa" title="Al Haqqa" file="al-haqqa.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(069)al-haqqa\al-haqqa.mp3" />
+    <audio id="volume06/(070)al-maarij" order="070" slug="al-maarij" title="Al Maarij" file="al-maarij.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(070)al-maarij\al-maarij.mp3" />
+    <audio id="volume06/(071)nooh" order="071" slug="nooh" title="Nooh" file="nooh.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(071)nooh\nooh.mp3" />
+    <audio id="volume06/(072)al-jin" order="072" slug="al-jin" title="Al Jin" file="al-jin.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(072)al-jin\al-jin.mp3" />
+    <audio id="volume06/(073)al-muzzammil" order="073" slug="al-muzzammil" title="Al Muzzammil" file="al-muzzammil.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(073)al-muzzammil\al-muzzammil.mp3" />
+    <audio id="volume06/(074)al-muddassir" order="074" slug="al-muddassir" title="Al Muddassir" file="al-muddassir.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(074)al-muddassir\al-muddassir.mp3" />
+    <audio id="volume06/(075)al-qiyamma" order="075" slug="al-qiyamma" title="Al Qiyamma" file="al-qiyamma.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(075)al-qiyamma\al-qiyamma.mp3" />
+    <audio id="volume06/(076)ad-dahr" order="076" slug="ad-dahr" title="Ad Dahr" file="ad-dahr.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(076)ad-dahr\ad-dahr.mp3" />
+    <audio id="volume06/(077)al-mursalat" order="077" slug="al-mursalat" title="Al Mursalat" file="al-mursalat.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(077)al-mursalat\al-mursalat.mp3" />
+    <audio id="volume06/(078)an-naba" order="078" slug="an-naba" title="An Naba" file="an-naba.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(078)an-naba\an-naba.mp3" />
+    <audio id="volume06/(079)an-nazayaat" order="079" slug="an-nazayaat" title="An Nazayaat" file="an-nazayaat.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(079)an-nazayaat\an-nazayaat.mp3" />
+    <audio id="volume06/(080)abass" order="080" slug="abass" title="Abass" file="abass.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(080)abass\abass.mp3" />
+    <audio id="volume06/(081)at-takveer" order="081" slug="at-takveer" title="At Takveer" file="at-takveer.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(081)at-takveer\at-takveer.mp3" />
+    <audio id="volume06/(082)al-infitar" order="082" slug="al-infitar" title="Al Infitar" file="al-infitar.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(082)al-infitar\al-infitar.mp3" />
+    <audio id="volume06/(083)al-mutaffifeen" order="083" slug="al-mutaffifeen" title="Al Mutaffifeen" file="al-mutaffifeen.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(083)al-mutaffifeen\al-mutaffifeen.mp3" />
+    <audio id="volume06/(084)al-inshiqaq" order="084" slug="al-inshiqaq" title="Al Inshiqaq" file="al-inshiqaq.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(084)al-inshiqaq\al-inshiqaq.mp3" />
+    <audio id="volume06/(085)al-burooj" order="085" slug="al-burooj" title="Al Burooj" file="al-burooj.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(085)al-burooj\al-burooj.mp3" />
+    <audio id="volume06/(086)at-tariq" order="086" slug="at-tariq" title="At Tariq" file="at-tariq.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(086)at-tariq\at-tariq.mp3" />
+    <audio id="volume06/(087)al-aala" order="087" slug="al-aala" title="Al Aala" file="al-aala.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(087)al-aala\al-aala.mp3" />
+    <audio id="volume06/(088)al-ghashiya" order="088" slug="al-ghashiya" title="Al Ghashiya" file="al-ghashiya.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(088)al-ghashiya\al-ghashiya.mp3" />
+    <audio id="volume06/(089)al-fajr" order="089" slug="al-fajr" title="Al Fajr" file="al-fajr.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(089)al-fajr\al-fajr.mp3" />
+    <audio id="volume06/(090)al-balad" order="090" slug="al-balad" title="Al Balad" file="al-balad.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(090)al-balad\al-balad.mp3" />
+    <audio id="volume06/(091)ash-shams" order="091" slug="ash-shams" title="Ash Shams" file="ash-shams.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(091)ash-shams\ash-shams.mp3" />
+    <audio id="volume06/(092)al-lail" order="092" slug="al-lail" title="Al Lail" file="al-lail.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(092)al-lail\al-lail.mp3" />
+    <audio id="volume06/(093)az-zuha" order="093" slug="az-zuha" title="Az Zuha" file="az-zuha.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(093)az-zuha\az-zuha.mp3" />
+    <audio id="volume06/(094)alamnashrah" order="094" slug="alamnashrah" title="Alamnashrah" file="alamnashrah.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(094)alamnashrah\alamnashrah.mp3" />
+    <audio id="volume06/(095)at-teen" order="095" slug="at-teen" title="At Teen" file="at-teen.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(095)at-teen\at-teen.mp3" />
+    <audio id="volume06/(096)al-alaq" order="096" slug="al-alaq" title="Al Alaq" file="al-alaq.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(096)al-alaq\al-alaq.mp3" />
+    <audio id="volume06/(097)al-qadr" order="097" slug="al-qadr" title="Al Qadr" file="al-qadr.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(097)al-qadr\al-qadr.mp3" />
+    <audio id="volume06/(098)al-bayyena" order="098" slug="al-bayyena" title="Al Bayyena" file="al-bayyena.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(098)al-bayyena\al-bayyena.mp3" />
+    <audio id="volume06/(099)az-zilzal" order="099" slug="az-zilzal" title="Az Zilzal" file="az-zilzal.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(099)az-zilzal\az-zilzal.mp3" />
+    <audio id="volume06/(100)al-aadiyat" order="100" slug="al-aadiyat" title="Al Aadiyat" file="al-aadiyat.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(100)al-aadiyat\al-aadiyat.mp3" />
+    <audio id="volume06/(101)al-qaariya" order="101" slug="al-qaariya" title="Al Qaariya" file="al-qaariya.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(101)al-qaariya\al-qaariya.mp3" />
+    <audio id="volume06/(102)at-takasur" order="102" slug="at-takasur" title="At Takasur" file="at-takasur.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(102)at-takasur\at-takasur.mp3" />
+    <audio id="volume06/(103)al-asr" order="103" slug="al-asr" title="Al Asr" file="al-asr.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(103)al-asr\al-asr.mp3" />
+    <audio id="volume06/(104)al-humaza" order="104" slug="al-humaza" title="Al Humaza" file="al-humaza.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(104)al-humaza\al-humaza.mp3" />
+    <audio id="volume06/(105)al-feel" order="105" slug="al-feel" title="Al Feel" file="al-feel.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(105)al-feel\al-feel.mp3" />
+    <audio id="volume06/(106)quraish" order="106" slug="quraish" title="Quraish" file="quraish.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(106)quraish\quraish.mp3" />
+    <audio id="volume06/(107)al-maoon" order="107" slug="al-maoon" title="Al Maoon" file="al-maoon.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(107)al-maoon\al-maoon.mp3" />
+    <audio id="volume06/(108)al-kausar" order="108" slug="al-kausar" title="Al Kausar" file="al-kausar.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(108)al-kausar\al-kausar.mp3" />
+    <audio id="volume06/(109)al-kafiroon" order="109" slug="al-kafiroon" title="Al Kafiroon" file="al-kafiroon.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(109)al-kafiroon\al-kafiroon.mp3" />
+    <audio id="volume06/(110)an-nasr" order="110" slug="an-nasr" title="An Nasr" file="an-nasr.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(110)an-nasr\an-nasr.mp3" />
+    <audio id="volume06/(111)al-lahab" order="111" slug="al-lahab" title="Al Lahab" file="al-lahab.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(111)al-lahab\al-lahab.mp3" />
+    <audio id="volume06/(112)al-ikhlas" order="112" slug="al-ikhlas" title="Al Ikhlas" file="al-ikhlas.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(112)al-ikhlas\al-ikhlas.mp3" />
+    <audio id="volume06/(113)al-falaq" order="113" slug="al-falaq" title="Al Falaq" file="al-falaq.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(113)al-falaq\al-falaq.mp3" />
+    <audio id="volume06/(114)an-naas" order="114" slug="an-naas" title="An Naas" file="an-naas.mp3" url="http://download.quranurdu.com/Tafheem-ul-Quran by Syed Moududi/volume06\(114)an-naas\an-naas.mp3" />
+  </volume>
+</library>

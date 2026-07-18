@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tafheem-ul-Quran — Modern Audio Library</title>
+    <meta name="description" content="A modern, mobile-first audio library for Tafheem-ul-Quran with resume history and theme support." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Modernized clone</p>
+          <h1>Tafheem-ul-Quran</h1>
+          <p class="lede">A clean, mobile-first listening experience with resume history, last-played recovery, and a simple anonymous static stack.</p>
+        </div>
+        <div class="hero-actions">
+          <button id="theme-toggle" class="ghost-button" type="button" aria-label="Toggle color theme">☀️ Light mode</button>
+          <a class="ghost-button" href="https://www.quranurdu.com/tafa/" target="_blank" rel="noreferrer">Open original</a>
+        </div>
+      </header>
+
+      <section class="status-grid">
+        <article class="status-card">
+          <span class="status-label">Last played</span>
+          <strong id="last-played-title">Nothing yet</strong>
+          <span id="last-played-meta">Pick any audio to start tracking locally.</span>
+        </article>
+        <article class="status-card">
+          <span class="status-label">History</span>
+          <strong id="history-count">0 items</strong>
+          <span>Stored only in this browser via localStorage.</span>
+        </article>
+      </section>
+
+      <section class="controls">
+        <label class="search-field">
+          <span>Search</span>
+          <input id="search-input" type="search" placeholder="Search by volume, surah, or title" />
+        </label>
+        <div id="volume-filters" class="chip-row" aria-label="Volume filters"></div>
+      </section>
+
+      <main>
+        <section id="resume-banner" class="resume-banner hidden" aria-live="polite">
+          <div>
+            <strong>Resume where you left off</strong>
+            <p id="resume-text"></p>
+          </div>
+          <button id="resume-button" class="primary-button" type="button">Jump to last audio</button>
+        </section>
+
+        <section id="audio-list" class="audio-list" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <div class="player-dock">
+      <div>
+        <p class="dock-label">Now selected</p>
+        <strong id="now-playing-title">Choose an audio</strong>
+        <p id="now-playing-meta">Your place and history stay in this browser.</p>
+      </div>
+      <audio id="global-player" controls preload="none"></audio>
+    </div>
+
+    <template id="audio-card-template">
+      <article class="audio-card">
+        <div class="audio-card__body">
+          <div>
+            <p class="audio-kicker"></p>
+            <h2></h2>
+            <p class="audio-meta"></p>
+          </div>
+          <button class="primary-button play-button" type="button">Play here</button>
+        </div>
+      </article>
+    </template>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
